@@ -1,0 +1,5 @@
+sẽ có xử lý logic liên quan tới người dùng ví dụ nhận dữ liệu từ client sau đó gửi lên userService để kiểm tra 
+Xử lý logic nghiệp vụ liên quan đến sản phẩm
+UserController.php nhận dữ liệu từ client và gọi UserService.php.
+UserService.php xử lý logic phức tạp như kiểm tra email hợp lệ hoặc đã tồn tại chưa.
+Nếu mọi thứ hợp lệ, UserModel.php sẽ thêm người dùng vào CSDL.
